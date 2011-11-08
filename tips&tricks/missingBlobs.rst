@@ -1,8 +1,5 @@
-Plone Tips & Tricks
-===================
-
 Error 'No blob file' al recatalogar
------------------------------------
+===================================
 
 Si al recatalogar ens trobem aquest error vol dir que el fitxer a disc al que fa referencia un arxiu o imatge de plone no existeix. Si no el troba, deixa de catalogar i peta. Pot passar que:
 
@@ -11,7 +8,7 @@ Si al recatalogar ens trobem aquest error vol dir que el fitxer a disc al que fa
 
 En amdos casos, podem aplicar el seguent patch (en local) al paquet Zope.ZODB3, que evitarà que la recatalogació peti, i ens identificarà al log "live" els arxius .blob que no trobi.
 
-::
+.. code-block:: diff
 
 	--- blob.py
 	+++ ZODB/blob.py
