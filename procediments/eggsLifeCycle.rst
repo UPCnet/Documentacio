@@ -13,19 +13,14 @@ Elements que entren en joc
 
 En l'estructura bàsica d'un paquet trobarem, a l'arrel:
 
-- El fitxer setup.py, on hi ha la versió del paquet que s'utilitza per fer l'egg. En aquest   arxiu també hi hem d'indicar el correu/autor del paquet, és
-un paràmetre obligatori.
+- El fitxer setup.py, on hi ha la versió del paquet que s'utilitza per fer l'egg. En aquest arxiu també hi hem d'indicar el correu/autor del paquet, és un paràmetre obligatori.
 
-- El fitxer setup.cfg, on es poden especificar paràmetres de com es genera la versió del paquet. Si no necessitem fer res concret que necessiti cap paràmetre, hem de comprovar que aquests parametres estiguin a "false", si no hi són, no cal:
-
-::  
+- El fitxer setup.cfg, on es poden especificar paràmetres de com es genera la versió del paquet. Si no necessitem fer res concret que necessiti cap paràmetre, hem de comprovar que aquests parametres estiguin a "false", si no hi són, no cal::  
 
     tag_build = false 
     tag_svn_revision = false
 
-- El fitxer docs/HISTORY.txt on escriurem els canvis que es fagin en cada versió dels paquets, amb el següent format, on x.y.z és el numero de versió, i AAAA-MM-DD la data. Els canvis no tenen perquè coincidir amb els commits al subversion/git ni ser molt detallats, aquí hi escriurem descripcions curtes dels canvis que donguin una idea del que s'ha fet, per exemple:
-
-::
+- El fitxer docs/HISTORY.txt on escriurem els canvis que es fagin en cada versió dels paquets, amb el següent format, on x.y.z és el numero de versió, i AAAA-MM-DD la data. Els canvis no tenen perquè coincidir amb els commits al subversion/git ni ser molt detallats, aquí hi escriurem descripcions curtes dels canvis que donguin una idea del que s'ha fet, per exemple::
 
     Changelog 
     =========
