@@ -58,8 +58,7 @@ Procediment per fer l'egg
 
 - IMPORTANT : Al fer l'egg es pujen els canvis que tenim en local al disc, per tant sempre revisar amb un "svn st" que no tinguem cap modificació local que no tinguem pujada al subversion. Això és especialment important per:
 
-    * Si ens hem descuidat de commitejar canvis i fem l'egg, aquest egg contindrà els canvis, però en posteriors modificacions d'altres, es perdrien aquests canvis
-    i els eggs no serien consistents amb el que hi ha al repositori
+    * Si ens hem descuidat de commitejar canvis i fem l'egg, aquest egg contindrà els canvis, però en posteriors modificacions d'altres, es perdrien aquests canvis i els eggs no serien consistents amb el que hi ha al repositori
 
     * Si tenim un canvi local que no ha de ser pujat al repositori, i fem l'egg en aquell moment, el repositori estarà correcte, però haurem generat un ou dolent.
 
