@@ -25,6 +25,10 @@ Amb la comanda "super+shift+p" i amb el Package Control, instal.lar els següent
  * SublimeCodeIntel
  * WordHighLight
  * ClipboardHistory
+ * Git
+ * GitSidebar
+
+Tots són configurables des del menú d'opcions.
 
 Plugins "a manija"
 ------------------
