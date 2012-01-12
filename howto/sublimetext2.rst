@@ -28,7 +28,8 @@ Amb la comanda "super+shift+p" i amb el Package Control, instal.lar els següent
  * WordHighLight
  * ClipboardHistory
  * Git
- * GitSidebar
+ * SidebarGit
+ * Terminal
 
 Tots són configurables des del menú d'opcions.
 
