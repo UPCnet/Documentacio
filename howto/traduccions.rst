@@ -129,6 +129,10 @@ Override de traduccions s'han de fer dins de la carpeta *i18n*, el nom dels .po 
 
     [domini]-[codi_idioma].
 
+Templates
+---------
+
+El següent enllaç es interessant a l'hora de fer els templates: http://plone.org/documentation/kb/i18n-for-developers
 
 Poedit
 ------
@@ -179,6 +183,12 @@ Enllaços
 
 Versions
 ++++++++
+
+1.2 (2012-03-09)
+................
+
+- Secció templates
+
 
 1.1 (2011-10-20)
 ................
