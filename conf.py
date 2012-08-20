@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plone Team Docs'
-copyright = u'2011, Plone Team'
+project = u'UPCnet Gestió de Continguts Docs'
+copyright = u'2011, 2012 UPCnet GC Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -183,8 +183,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'PloneTeamDocs.tex', u'Plone Team Docs Documentation',
-   u'Plone Team', 'manual'),
+  ('index', 'PloneTeamDocs.tex', u'UPCnet GC Team Docs Documentation',
+   u'UPCnet GC Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -213,8 +213,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'ploneteamdocs', u'Plone Team Docs Documentation',
-     [u'Plone Team'], 1)
+    ('index', 'ploneteamdocs', u'UPCnet GC Team Docs Documentation',
+     [u'UPCnet GC Team'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'PloneTeamDocs', u'Plone Team Docs Documentation',
-   u'Plone Team', 'PloneTeamDocs', 'One line description of project.',
+  ('index', 'PloneTeamDocs', u'UPCnet GC Team Docs Documentation',
+   u'UPCnet GC Team', 'PloneTeamDocs', 'One line description of project.',
    'Miscellaneous'),
 ]
 

@@ -3,23 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Plone Team Docs's documentation!
-===========================================
+Benvinguts a la documentació de l'equip de Gestió de Continguts d'UPCnet!
+==========================================================================
 
 Aquest és un experiment per veure que tal se'ns dona documentar en reStructuredText. Anteriorment, ens ha costat molt crear una base de dades de coneixement compartit, preferint altres formes més personals de documentació.
 
 Veiam que tal va!
 
-Per ara comencem amb tres categories:
+Per ara comencem amb quatre categories:
 
     * Procediments i bones pràctiques d'equip
     * Tips and Tricks
     * How To
+    * Troubleshooting
 
-Per cada nova entrada cal crear un fitxer .rst al directori corresponent. Després pujar els canvis a GitHub.
+Per cada nova entrada cal crear un fitxer .rst al directori corresponent. Després pujar els canvis a GitHub. Els canvis es compilen i es pugen directament al repositori de readthedocs.org en aquesta URL::
+  http://upcnet-gc-docs.readthedocs.org/
 
 .. note::
-    
+
     En aquesta `web`_ teniu el manual de referència de reStructuredText. Recordeu que podeu fer servir tot el que aporta `Sphinx`_.
 
 .. _web: http://sphinx.pocoo.org/rest.html
@@ -61,6 +63,16 @@ Documents que expliquen un aspecte o funcionalitat concreta.
 
    howto/*
 
+Troubleshooting
+===============
+
+Documents que expliquen com arreglar un error concret.
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   troubleshooting/*
 
 Indices and tables
 ==================
