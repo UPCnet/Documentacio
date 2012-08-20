@@ -18,6 +18,7 @@ Per ara comencem amb quatre categories:
     * Troubleshooting
 
 Per cada nova entrada cal crear un fitxer .rst al directori corresponent. Després pujar els canvis a GitHub. Els canvis es compilen i es pugen directament al repositori de readthedocs.org en aquesta URL::
+
   http://upcnet-gc-docs.readthedocs.org/
 
 .. note::
