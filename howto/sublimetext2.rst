@@ -25,9 +25,14 @@ Instal·lar paquets bàsics
 Amb la comanda "super+shift+p" i amb el Package Control, instal·lar els següents plugins:
 
  * BracketHighlighter
+ * SublimeLinter
  * SublimeCodeIntel
  * WordHighLight
- * ClipboardHistory
+ * Clipboard History
+ * HTML5
+ * Jquery
+ * LESS
+ * SCSS
  * Git
  * SidebarGit
  * Terminal
@@ -38,7 +43,6 @@ Plugins "a manija"
 ------------------
 Decarregar, via Git:
 
- * https://github.com/vorushin/sublimetext_python_checker.git
  * https://github.com/buymeasoda/soda-theme/
 
 Plugins del Dropbox
