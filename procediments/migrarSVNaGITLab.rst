@@ -95,6 +95,7 @@ Passos per migrar
      > Cloning intranetUPCnet as local GIT repository /
      > Creating new GIT repository at https://git.upcnet.es/intranetupcnet.buildout.deploy.git
      > Pushing Repository.
+     > Marking Subversion repo as MOVED
      Creating group "intranetupcnet"
      Adding intranetupcnet.buildout.deploy to group "intranetupcnet"
      Creating group "situla.deploy"
@@ -103,6 +104,12 @@ Passos per migrar
         · Added victor.fernandez to intranetupcnet.buildout.deploy developers team
         · Added roberto.diaz to intranetupcnet.buildout.deploy developers team
         · Added carles.bruguera to intranetupcnet.buildout.deploy developers team
+
+* El repositori subversion antic, un cop l'script a fet push al nou git, queda marcat amb un arxiu::
+
+    ____MOVED____TO____GITLAB.txt
+
+perque quedi clar que aquell subversion ja esta obsolet
 
 * L'ultim pas del migrador es donar permisos a tothom qui ha comitejat alguna vegada. Si algu dels que intenta donar permisos no ha entrat mai al gitlab, ens avisarà i si s'escau que és algú que encara treballa aqui, doncs li demanarem amablement que es logueigi, per poder tornar a executar la comanda exactament amb els mateixos paràmetres perque afegeixi aquestes persones.
 
