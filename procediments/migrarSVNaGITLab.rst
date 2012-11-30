@@ -82,7 +82,7 @@ Passos per migrar
 - Els grups estaran separats per comes, sense espais, i en cas de no voler posar cap grup, posarem un guio (-)
 - Si no volem cambiar el nom del paquet, no cal que passem l'últim paràmetre
 
-*Un exemple amb totes les opcions possibles::
+* Un exemple amb totes les opcions possibles::
 
     root@colladaverda:~# svn2gitlab https://devel.upcnet.es/svn/deployment/situla/trunk/intranetUPCnet intranetupcnet,situla.deploy intranetupcnet.buildout.deploy
 
