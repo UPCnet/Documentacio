@@ -79,8 +79,8 @@ Passos per migrar
     svn2gitlab https://devel.upcnet.es/svn/xxxxxxxxxxx grup1,grup2 nom_alternatiu
 
 
-    - Els grups estaran separats per comes, sense espais, i en cas de no voler posar cap grup, posarem un guio (-)
-    - Si no volem cambiar el nom del paquet, no cal que passem l'últim paràmetre
+- Els grups estaran separats per comes, sense espais, i en cas de no voler posar cap grup, posarem un guio (-)
+- Si no volem cambiar el nom del paquet, no cal que passem l'últim paràmetre
 
 *Un exemple amb totes les opcions possibles::
 
