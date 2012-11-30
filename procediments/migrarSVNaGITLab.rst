@@ -109,7 +109,7 @@ Passos per migrar
 
     ____MOVED____TO____GITLAB.txt
 
-perque quedi clar que aquell subversion ja esta obsolet
+perque quedi clar que aquell subversion ja esta obsolet. A dins de l'arxiu, queda registrada la ubicació de nou repositori.
 
 * L'ultim pas del migrador es donar permisos a tothom qui ha comitejat alguna vegada. Si algu dels que intenta donar permisos no ha entrat mai al gitlab, ens avisarà i si s'escau que és algú que encara treballa aqui, doncs li demanarem amablement que es logueigi, per poder tornar a executar la comanda exactament amb els mateixos paràmetres perque afegeixi aquestes persones.
 
